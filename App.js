@@ -19,9 +19,7 @@ export default function App() {
     
     <Container>
     
-      <Image
-      style={{ width: 50, height: 50 }}
-      source={require('../saraApp/assets/panier.svg')}/>
+      
 
       <Anatomy> </Anatomy>
       
