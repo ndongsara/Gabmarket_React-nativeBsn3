@@ -1,0 +1,169 @@
+import React from 'react';
+import {   View, Title,TouchableOpacity} from 'react-native';
+import { Image } from 'react-native';
+import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right } from 'native-base';
+
+import { createStackNavigator } from '@react-navigation/stack';
+import CardShow from './card';
+
+import data from '../data.json'
+
+
+const Stack = createStackNavigator();
+function HomeScreen({ navigation  }) {
+  return (
+    <Container>
+    <Header />
+    <Content>
+      <Card style={{flex: 0}}>
+        <CardItem>
+          <Left>
+            <Thumbnail source={{uri: 'Image URL'}} />
+            <Body>
+              <Text>NativeBase</Text>
+              <Text note>April 15, 2016</Text>
+            </Body>
+          </Left>
+        </CardItem>
+        <CardItem>
+          <Body>
+            <Image source={{uri: 'Image URL'}} style={{height: 200, width: 200, flex: 1}}/>
+            <Text>
+              //Your text here
+            </Text>
+          </Body>
+        </CardItem>
+        <CardItem>
+          <Left>
+            <Button transparent textStyle={{color: '#87838B'}}>
+              <Icon name="logo-github" />
+              <Text>1,926 stars</Text>
+            </Button>
+          </Left>
+        </CardItem>
+      </Card>
+    </Content>
+  </Container>
+
+     
+
+    
+  );
+}
+
+  
+  export default HomeScreen ;
+
+
+
+   <View style={{ display:flex, justifyContent: 'center'}} >
+      {data.map((data) => (
+        <TouchableOpacity  onPress={() => navigation.navigate('Articles')}>
+        <Card style={{flex: 1,height: 100, width: 100,}}>
+                
+                
+                  
+                  <Image
+                    style={{height: 100, width: 100, flex: 1}}
+                    source={require('../assets/market.png')}/> 
+                    <Text>
+                      
+                      {data.name}
+                     
+                    </Text>
+              
+              </Card>
+        </TouchableOpacity>
+      ))}
+        
+
+
+     </View>
+
+
+      const nom = data[0].name;
+  const tailles = data[0].taille;
+  
+    return (
+      <View style={{ flex:1, justifyContent: 'space-around'}} >
+       
+       
+       {tailles.map((taille) => (
+        <TouchableOpacity  onPress={() => navigation.navigate('DetailArticles')}>
+        <Card style={{flex: 1,height: 100, width: 100,}}>
+ 
+                  <Image
+                    style={{height: 100, width: 100, flex: 1}}
+                    source={require('../assets/market.png')}/> 
+       
+                    <Text>
+                      
+                    {taille}
+                     
+                    </Text>
+                   
+              </Card>
+        </TouchableOpacity>
+        
+        ))}
+      
+
+   </View>
+
+        <View>
+        <TouchableOpacity >
+                <Card style={{flex: 1,height: 100, width: 100,}}>
+        
+                          <Image
+                            style={{height: 200, width: 200, flex: 1}}
+                            source={require('../assets/market.png')}/> 
+              
+                            <Text>
+                              
+                            
+                            
+                            </Text>
+                          
+                      </Card>
+          </TouchableOpacity>
+          <Content>
+          <Text></Text>
+          <Text>
+          Le meilleur choix pour toutes celles qui aiment les cheveux lisses et soyeux.
+• Cheveux vierges d’origine contrôlée, à porter au naturel, à décolorer ou colorer si vous le souhaitez car ils n’ont reçu aucun traitement (en dehors d’un lavage au shampooing doux)
+• Tissage fabriqué directement dans notre usine, chaque mèche de cheveux est de qualité supérieure 100 % naturel authentique Remy Hair (les cheveux sont maintenus dans le même sens des cuticules)
+• Durée de vie optimum et réutilisable jusqu’à plus de 4 fois (avec un entretien régulier)
+• Expédié directement de notre atelier, sans intermédiaire pour une optimisation des coûts, plusieurs options d’expédition
+• Bande souple et facile à coudre pour une pose facile
+• Une totale liberté de coiffage après la pose (lissage, ondulation…)
+          </Text>
+        </Content>
+
+
+
+     </View>
+
+
+
+      <Card style={{flex: 0}}>
+          
+          <CardItem >
+            <Left>
+              <Thumbnail source={{uri: products.images}} />
+              <Body>
+                <Text>{products.title}</Text>
+                <Text ></Text>
+              </Body>
+            </Left>
+          </CardItem>
+          
+          <CardItem  >
+            <Body>
+              <Image source={{uri: products.images}} style={{height: 200, width: 200, flex: 1}}/>
+              <Text>
+              {products.description}
+              </Text>
+            </Body>
+          </CardItem>
+         
+        </Card>

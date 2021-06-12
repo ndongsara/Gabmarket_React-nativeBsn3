@@ -1,19 +1,42 @@
 import React from 'react';
-import {  Text, View, Button} from 'react-native';
+import { TouchableOpacity,StyleSheet,Image} from 'react-native';
 
-import { NavigationContainer } from '@react-navigation/native';
+import {  Content, Card, CardItem, Thumbnail, Text, Left, Body, Right } from 'native-base';
 import { createStackNavigator } from '@react-navigation/stack';
-
 const Stack = createStackNavigator();
-function ArticlesScreen( { navigation }) {
+
+function ArticlesScreen( {route,navigation }) {
+  
+  const products = route.params.product;
+  
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>articles screen </Text>
-        <Button
-          title="Go to Detail Articles"
-          onPress={() => navigation.navigate('DetailArticles')}
-        />
-      </View>
+      <Content>
+      {products.map((product) => (
+        <Card style={{flex: 0}}>
+          <TouchableOpacity  onPress={() => navigation.navigate('DetailArticles',product)}>
+          <CardItem >
+            <Left>
+              <Thumbnail source={{uri: product.images}} />
+              <Body>
+                <Text style={{ fontWeight: 'bold'}}>{product.title}</Text>
+                <Text ></Text>
+              </Body>
+            </Left>
+          </CardItem>
+          </TouchableOpacity>
+          <TouchableOpacity  onPress={() => navigation.navigate('DetailArticles',product)}>
+          <CardItem  >
+            <Body>
+              <Image source={{uri: product.images}} style={{height: 200, width: 200, flex: 1}}/>
+              <Text>
+    
+              </Text>
+            </Body>
+          </CardItem>
+          </TouchableOpacity>
+        </Card>
+     ))}
+      </Content>
     );
   }
 

@@ -1,0 +1,93 @@
+{
+  "categories": [
+     {
+      "_id": "1",
+      "images": "https://maison-des-meches.fr/496-large_default/bresiliennes-bouclees-lot.jpg",
+      "title": "Mèche bouclé",
+      "product": [
+        {
+          "id": "1",
+          "title": "bouclé taille1",
+         "description" :"Matériaux capillaire:vague de cheveux brésilienne de qualité 8A,pas de cheveux synthétiques ou animaux mélangés, pas d'enchevêtrement, pas de perteCouleur des cheveux:Cheveux humains vierges ondulés Couleur naturelle Off-Off Black, Peut être teintQualité des cheveux:prix abordable avec une haute qualité, très doux et soyeux £ Très propre et en bonne santéLa vague de cheveux en stock sera expédiée dans les 24 heures suivant le paiement.",
+         "prix" : 50 ,
+          "images": "https://ae01.alicdn.com/kf/H902e5c87f6d14cde833c7bde7688b7a3I/M-ches-de-cheveux-br-siliens-doubles-boucl-s-Pissy-m-che-de-cheveux-vierges-non.jpg_Q90.jpg_.webp"
+        },
+        {
+          "id": "2",
+          "title": "bouclé taille2 ",
+          "prix" : 60 ,
+          "description" : "Matériaux capillaire:vague de cheveux brésilienne de qualité 8A,pas de cheveux synthétiques ou animaux mélangés, pas d'enchevêtrement, pas de perteCouleur des cheveux:Cheveux humains vierges ondulés Couleur naturelle Off-Off Black, Peut être teintQualité des cheveux:prix abordable avec une haute qualité, très doux et soyeux £ Très propre et en bonne santéLa vague de cheveux en stock sera expédiée dans les 24 heures suivant le paiement.",
+          "images": "https://i.pinimg.com/564x/b2/ad/9c/b2ad9c964f36d8c0dd500eb65d36bcd0.jpg"
+        }
+      ]
+    },
+
+    {
+      "_id": "2",
+      "images": "https://i.pinimg.com/564x/31/7f/c0/317fc080597c3e9ae23938b022573eb0.jpg",
+      "title": "Mèche Lisse",
+      "product": [
+        {
+          "id": "1",
+          "title": "lisse taille1",
+          "prix" : 30 ,
+          "description" : "Le meilleur choix pour toutes celles qui aiment les cheveux lisses et soyeux.• Cheveux vierges d’origine contrôlée, à porter au naturel, à décolorer ou colorer si vous le souhaitez car ils n’ont reçu aucun traitement (en dehors d’un lavage au shampooing doux)• Tissage fabriqué directement dans notre usine, chaque mèche de cheveux est de qualité supérieure 100 % naturel authentique Remy Hair (les cheveux sont maintenus dans le même sens des cuticules)• Durée de vie optimum et réutilisable jusqu’à plus de 4 fois (avec un entretien régulier)• Expédié directement de notre atelier, sans intermédiaire pour une optimisation des coûts, plusieurs options d’expédition• Bande souple et facile à coudre pour une pose facile• Une totale liberté de coiffage après la pose (lissage, ondulation…) " ,
+         
+          
+          "images": "https://www.lookhairparis.com/555/meche-tissage-peruvien-ou-malaisien-raide-ou-lisse-straight.jpg"
+        },
+
+        {
+          "id": "2",
+          "title": "lisse taille2 ",
+          "prix" :35,
+          "description" : "Le meilleur choix pour toutes celles qui aiment les cheveux lisses et soyeux.• Cheveux vierges d’origine contrôlée, à porter au naturel, à décolorer ou colorer si vous le souhaitez car ils n’ont reçu aucun traitement (en dehors d’un lavage au shampooing doux)• Tissage fabriqué directement dans notre usine, chaque mèche de cheveux est de qualité supérieure 100 % naturel authentique Remy Hair (les cheveux sont maintenus dans le même sens des cuticules)• Durée de vie optimum et réutilisable jusqu’à plus de 4 fois (avec un entretien régulier)• Expédié directement de notre atelier, sans intermédiaire pour une optimisation des coûts, plusieurs options d’expédition• Bande souple et facile à coudre pour une pose facile• Une totale liberté de coiffage après la pose (lissage, ondulation…) " ,
+
+          "images": "https://www.bl-paris.com/1326-large_default/lot-de-3-pieces-meches-peruviennes-tissage-lisse-12.jpg"
+        },
+        {
+          "id": "3",
+          "title": "lisse taille3 ",
+          "prix" :40,
+          "description" : "Le meilleur choix pour toutes celles qui aiment les cheveux lisses et soyeux.• Cheveux vierges d’origine contrôlée, à porter au naturel, à décolorer ou colorer si vous le souhaitez car ils n’ont reçu aucun traitement (en dehors d’un lavage au shampooing doux)• Tissage fabriqué directement dans notre usine, chaque mèche de cheveux est de qualité supérieure 100 % naturel authentique Remy Hair (les cheveux sont maintenus dans le même sens des cuticules)• Durée de vie optimum et réutilisable jusqu’à plus de 4 fois (avec un entretien régulier)• Expédié directement de notre atelier, sans intermédiaire pour une optimisation des coûts, plusieurs options d’expédition• Bande souple et facile à coudre pour une pose facile• Une totale liberté de coiffage après la pose (lissage, ondulation…) " ,
+
+          "images": "https://maison-des-meches.fr/448-medium_default/meches-naturelles-lot.jpg"
+        }
+      ]
+    },
+
+    {
+      "_id": "3",
+      "images": "https://fimgs.net/mdimg/perfume/375x500.4566.jpg",
+      "title": "parfum",
+      "product": [
+        {
+          "id": "1",
+          "title": "guerlain insolence",
+          "prix" :76,
+          "description" : " kjkjkjkjklj",
+         
+          
+          "images": "https://cdn.shopify.com/s/files/1/0531/5464/4130/products/guerlain-insolence-eau-de-parfum-100ml-alger-livraison-parfum-algerie-la-rose-d-algerie-fleurs-et-cadeaux.jpg?v=1612675643"
+        },
+        {
+          "id": "2",
+          "title": "dior poison ",
+          "prix" :80,
+          "description" : "Le meilleur choix pour toutes celles qui aiment les cheveux lisses et soyeux.• Cheveux vierges d’origine contrôlée, à porter au naturel, à décolorer ou colorer si vous le souhaitez car ils n’ont reçu aucun traitement (en dehors d’un lavage au shampooing doux)• Tissage fabriqué directement dans notre usine, chaque mèche de cheveux est de qualité supérieure 100 % naturel authentique Remy Hair (les cheveux sont maintenus dans le même sens des cuticules)• Durée de vie optimum et réutilisable jusqu’à plus de 4 fois (avec un entretien régulier)• Expédié directement de notre atelier, sans intermédiaire pour une optimisation des coûts, plusieurs options d’expédition• Bande souple et facile à coudre pour une pose facile• Une totale liberté de coiffage après la pose (lissage, ondulation…) " ,
+
+          "images": "https://production-eu01-dior.demandware.net/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw24806d2b/assets/Y0083424/Y0083424_F008344409_E01_GHC.jpg?sw=715&sh=773&sm=fit&imwidth=300"
+        },
+        {
+          "id": "3",
+          "title": "dior j'adore ",
+          "prix" :90,
+          "description" : "Matériaux capillaire:vague de cheveux brésilienne de qualité 8A,pas de cheveux synthétiques ou animaux mélangés, pas d'enchevêtrement, pas de perteCouleur des cheveux:Cheveux humains vierges ondulés Couleur naturelle Off-Off Black, Peut être teintQualité des cheveux:prix abordable avec une haute qualité, très doux et soyeux £ Très propre et en bonne santéLa vague de cheveux en stock sera expédiée dans les 24 heures suivant le paiement.",
+
+          "images": "https://production-eu01-dior.demandware.net/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwab4a44d7/assets/Y0715201/Y0715201_F071524009_E01_GHC.jpg?sw=715&sh=773&sm=fit"
+        }
+      ]
+    }
+  ]
+ }
+  
