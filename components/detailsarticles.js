@@ -95,9 +95,7 @@ function DetailArticlesScreen({route,navigation }) {
   
     footer: {
       height: 70,
-      backgroundColor: "light",
-      borderRadius: 10,
-      paddingHorizontal: 20,
+     
       alignItems: 'center',
       flexDirection: 'row',
       justifyContent: 'space-between',
